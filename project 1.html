@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ 	*{
+	margin: 0px;
+	padding: 0px;
+	font-family: LilitaOne-Regular;
+}
+@font-face {
+	font-family:"lili";
+	src: url("LilitaOne-Regular.ttf");
+}
+@font-face{
+	src:url("Margarine-Regular.ttf");
+	font-family: "mar";
+}
+@font-face{
+	src:url("Rubik-Black.ttf");
+	font-family: "rub";
+}
+
+@font-face{
+	src:url("TitilliumWeb-Black.ttf");
+	font-family: "tit";
+}
+.bg{
+	background-image: url(56065291-cartoon-business-people-working-on-office.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+
+}
+
+.menu{
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0,0,0,0.4);
+
+}
+.leftmenu{
+	width: 30%;
+	line-height: 70px;
+	float: left;
+}
+.leftmenu h3{
+	padding-left: 20px;
+	font-size:35px; 
+	color: white;
+	font-family: "lili";
+}
+.rightmenu{
+	width: 70%;
+	height:70px;
+	float: right;
+}
+
+.rightmenu ul li
+{
+		/*font-style: "montserrat",sans-serif;*/
+		display: inline-block;
+		/*isi ki wajah se list horizontal dikhti hai.*/
+		list-style: none;
+		font-size: 20px;
+		color: white;
+		font-weight: bold;
+		line-height: 70px;
+		/*iski wajah se padding ke center mei aa jaega text*/
+		margin-left: 40px;
+		font-family: "tit";
+		
+}
+.rightmenu ul{
+	margin-left: 280px;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+.text{
+	width: 100%;
+	margin-top: 170px;
+	text-align: center;
+	color: white;
+
+}
+.text h1{
+	margin-top: 12px;
+	margin-bottom: 10px;
+	font-size: 60px;
+	font-family: "rub";
+
+}
+.text h4{
+font-size: 17px;
+font-family: "rub";
+
+}
+
+.text h3{
+	margin-bottom: 14px;
+
+	font-family: "rub";
+
+}
+
+#button1{/*class ko access karne ke liye "."
+id ko access karne ke liye "#"*/
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 40px;
+	border: 3px solid white;
+	font-family: "rub";
+
+	width: 150px;
+}
+
+#button2{/*class ko access karne ke liye "."
+id ko access karne ke liye "#"*/
+	background-color: transparent;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	border: 3px solid white;
+	font-family: "rub";
+	
+}
+ 	@font-face {
+	font-family:LilitaOne-Regular;
+	src: url(E:\fonts\Lilita_One\LilitaOne-Regular.ttf);
+}
+*{
+	font-family: LilitaOne-Regular;
+}
+ </style>
+ </head>
+<body>
+<div class="bg">
+	<div class="menu">
+		<div class="leftmenu">
+			<h3>ANDROID DIARIES</h3>
+
+		</div>
+		<div class="rightmenu">
+			<ul>
+				<li>HOME </li>
+				<li>SERVICES </li>
+				<li>ABOUT US </li>
+				<li>BLOGS </li>
+				<LI> CONTACT</LI>
+			</ul>
+		</div>
+	</div>
+	<DIV class="text">
+		<h4> DESIGN . DEVELOPMENT . BRANDING</h4>
+		<H1> CREATIVE & EXPERIENCED</H1>
+		<h3>WORLD'S TOP CREATIVE DESIGNS</h3>
+		<BUTTON id ="button1" > like & share</BUTTON>
+		<BUTTON id ="button2" onclick="alert('you have subscribed successfully')"> subscribe </BUTTON>
+
+</div>
+
+</body>
+</html>
